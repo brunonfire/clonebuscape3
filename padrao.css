@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.topo {
+  background-color: #ffc600;
+}
+
+.container {
+  padding: 0.5rem;
+  display: flex;
+}
+.logo {
+  width: 10%;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buscar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botaobusca {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333;
+  padding-left: 30px;
+  width: 50%;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+}
+
+.user {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imguser {
+  padding: 0.5rem;
+  width: 15%;
+}
